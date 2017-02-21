@@ -22,7 +22,7 @@
 					<textarea name="content" class="form-control" id="tache"></textarea>
 				</div>
 				<div id="buttonAjoutModif">
-					<p><button type="button" id="boutonJquery" class="btn btn-success">Creer</button></p>
+					<p><button type="button" id="btn-add" class="btn btn-success">Creer</button></p>
 				</div>
 			</div>
 		</form>
