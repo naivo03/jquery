@@ -158,7 +158,7 @@ function	updateBddTache(tacheId){
 	xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 	xhr.send("tacheId="+tacheId+"&tache="+tache);
 }
-
+ 
 $(function(){
 
 	$.ajax({
@@ -204,11 +204,22 @@ $(function(){
 							// templating de la tache 
 				  			$("#Taches").append('<tr><td>'+tache.content+'</td><td><button id="buttonModif" hidden="'+tache.id+'" type="button" class="btn btn-primary">Modifier</button></td><td><button id="buttonSupp" hidden="'+tache.id+'" type="button" class="btn btn-danger">Supprimer</button></td></tr>');
 						});
+
+						$("#boutonModif").click(function(){
+
+						console.log("bonjour je suis buttonModif");						
+
+						});
 		       		}
 		    	});
        		}
     	});
 	});
+						
+	$("#boutonModif").click(function(){
 
+	console.log("bonjour je suis buttonModif");						
+
+	});
 
 });
